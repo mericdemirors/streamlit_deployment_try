@@ -18,7 +18,7 @@ if st.button('need help with url?', on_click=None):
     from PIL import Image
     st.image(Image.open(img_paths[img_no]), caption='andreas', width=750)
     st.image(Image.open(img_paths[img_no+1]), caption='andreas', width=750)
-    if st.button('thanks, I learnd:)', on_click=None):
+    if st.button('thanks, I learned:)', on_click=None):
         pass        
 else:
     pass
